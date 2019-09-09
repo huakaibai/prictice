@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xmlns:jee="http://www.springframework.org/schema/jee"
+	   xmlns:lang="http://www.springframework.org/schema/lang"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+
+
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+">
+
+
+	<!--
+        <bean id="user" class="com.watchdata.property.User" >
+            <property name="dateValue"><value>2019-06-13</value></property>
+
+        </bean>
+
+        <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+            <property name="customEditors">
+                <map>
+                    <entry key="java.util.Date" value="com.watchdata.property.DatePropertyEditor">
+
+                    </entry>
+                </map>
+            </property>
+        </bean>
+	<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="propertyEditorRegistrars">
+			<list>
+				<bean class="com.watchdata.property.DatePropertyEdtiorRegistrar"> </bean>
+			</list>
+		</property>
+	</bean>
+	
+	<bean class="com.watchdata.property.ObscenityRemovingBeanFactoryPostProcessor" name="bfpp">
+		<property name="obsc">
+			<set>
+				<value>bollocks</value>
+				<value>winky</value>
+				<value>bum</value>
+				<value>microsoft</value>
+			</set>
+		</property>
+		
+	</bean>
+
+	<bean id="simpleBean" class="com.watchdata.property.SirnplePostProcessor">
+		<property name="userName" value="bollocks"/>
+		<property name="passwd" value="winky"/>
+		<property name="other" value="aaa"/>
+
+	</bean>
+
+
+	<bean id="conversionService" class="org.springframework.context.support.ConversionServicconverterseFactoryBean">
+		<property name="converters">
+			<list>
+				<bean class="com.watchdata.property.String2Date"></bean>
+			</list>
+		</property>
+	</bean>
+-->
+	<aop:aspectj-autoproxy/>
+	<bean id="test" class="com.watchdata.aspect.TestBean"/>
+	<bean class="com.watchdata.aspect.AspectjTest"/>
+
+
+</beans>	
+
