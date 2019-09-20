@@ -107,7 +107,7 @@ public class TestStream {
         List<String[]> collect1 = listS.stream().map(s -> s.split(" ")).collect(Collectors.toList());
 
         collect1.forEach(strings -> Arrays.asList(strings).forEach(System.out::println));
-        System.out.println(collect1);
+        System.out.println("collect1 的大小="+collect1.size());
 
 
         /**
@@ -119,7 +119,7 @@ public class TestStream {
         List<String> list6 = listS.stream().map(s -> s.split(" ")).flatMap(Arrays::stream).collect(Collectors.toList());
 
         System.out.println(list6);
-
+        System.out.println("----------------");
 
         /**
          * anyMatch(T -> boolean)
@@ -127,7 +127,7 @@ public class TestStream {
          */
         boolean b = list.stream().anyMatch(person -> person.getAge() == 20);
         System.out.println(b);
-
+        System.out.println("----------------");
         /**
          * allMatch(T -> boolean)
          * 流中是否所有元素都匹配给定的 T -> boolean 条件
@@ -136,7 +136,7 @@ public class TestStream {
         boolean b1 = list.stream().allMatch(person -> person.getAge() == 20);
         System.out.println(b1);
 
-
+        System.out.println("----------------");
         /**
          * noneMatch(T -> boolean)
          * 流中是否没有元素匹配给定的 T -> boolean 条件
@@ -145,7 +145,7 @@ public class TestStream {
         boolean b2 = list.stream().noneMatch(person -> person.getAge() == 20);
         System.out.println(b2);
 
-
+        System.out.println("----------------");
         /**
          * findAny()：找到其中一个元素 （使用 stream() 时找到的是第一个元素；使用 parallelStream() 并行时找到的是其中一个元素）
          * findFirst()：找到第一个元素
@@ -154,21 +154,28 @@ public class TestStream {
 
         Optional<Person> any = list.stream().findAny();
         Person person = any.get();
+
         System.out.println(person.getAge());
 
         Optional<Person> first = list.stream().findFirst();
         Person person1 = first.get();
         System.out.println(person1.getAge());
 
-
+        System.out.println("----------------");
         /**
          *  reduce((T, T) -> T) 和 reduce(T, (T, T) -> T)
          *  用于组合流中的元素，如求和，求积，求最大值等
          */
-        list.stream().map(Person::getAge).reduce(0,Integer::sum);
-        list.stream().map(Person::getAge).reduce(Integer::sum);
-        list.stream().map(Person::getAge).reduce(0,(a,b3)-> a+b3); // （a,b） 是在整个{}范围内生效，假设说定义一个private String a, 则会和（a.b ）有冲突
+        Integer reduce = list.stream().map(Person::getAge).reduce(0, Integer::sum);
+        System.out.println("reduce="+reduce);
 
+        Optional<Integer> reduce1 = list.stream().map(Person::getAge).reduce(Integer::sum);
+        System.out.println("reduce1="+reduce1);
+
+        Integer reduce2 = list.stream().map(Person::getAge).reduce(0, (a, b3) -> a + b3);
+        // （a,b） 是在整个{}范围内生效，假设说定义一个private String a, 则会和（a.b ）有冲突
+        System.out.println("reduce2="+reduce2);
+        System.out.println("----------------");
         /**
          *  count()
          * 返回流中元素个数，结果为 long 类型
@@ -176,6 +183,7 @@ public class TestStream {
         List aa = null;
         long count = list.stream().count();
         System.out.println(count);
+        System.out.println("----------------");
 
        // long count1 = aa.stream().count(); // 也是会报空指针
        // System.out.println(count1);
@@ -187,5 +195,6 @@ public class TestStream {
          */
 
         list.forEach(person2 -> System.out.println(person2));
+        System.out.println("----------------");
     }
 }
