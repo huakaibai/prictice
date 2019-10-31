@@ -12,7 +12,7 @@ public class Services {
 
     private Services() {};
 
-    private static Map<String,Provider> providers = new ConcurrentHashMap<>();
+     private static Map<String,Provider> providers = new ConcurrentHashMap<>();
 
     private static final String DEFAULT_PROVIDER_NAME = "<def>";
 
