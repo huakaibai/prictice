@@ -15,7 +15,7 @@ public class EccTest {
     public static void main(String[] args) {
 
       //  String curveName = "secp256k1";
-        String curveName = "brainpoolP256r1";
+        String curveName = "brainpoolP512r1";
 
 
         KeyPairGenerator keyPairGenerator = null;
@@ -28,12 +28,12 @@ public class EccTest {
         ECGenParameterSpec ecGenParameterSpec = new ECGenParameterSpec(curveName);
         try {
            // keyPairGenerator.initialize(ecGenParameterSpec, new SecureRandom());
-            keyPairGenerator.initialize(ecGenParameterSpec,Se);
+            keyPairGenerator.initialize(ecGenParameterSpec,SecureRandom.getInstance("EC"));
         } catch (InvalidAlgorithmParameterException e) {
             e.printStackTrace();
-        }/* catch (NoSuchAlgorithmException e) {
+        } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-        }*/
+        }
         KeyPair keyPair = keyPairGenerator.generateKeyPair();
         // 获取公钥
 
