@@ -2,7 +2,6 @@ package com.watchdata.effectivejava.eight;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-17 11:47
  * @desc
  **/
 public class DoubleAndBigDecimal {

@@ -7,7 +7,6 @@ import java.lang.reflect.Proxy;
 
 /**
  * @author zhibin.wang
- * @create 2019-09-11 14:07
  * @desc
  **/
 public class HeloProxy implements InvocationHandler {
