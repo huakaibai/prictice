@@ -2,7 +2,7 @@ package com.watchdata.effectivejava.four;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-10 14:39
+ * @create 2019-07-10
  * @desc 测率模式宿主类
  **/
 public class Host {

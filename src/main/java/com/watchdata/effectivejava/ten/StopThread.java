@@ -4,7 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-17 15:10
  * @desc
  **/
 public class StopThread {

@@ -4,7 +4,6 @@ import java.util.Objects;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-09 14:41
  * @desc 测试 Hashcode和equals
  **/
 public class PhoneNumber  implements  Comparable<PhoneNumber>{

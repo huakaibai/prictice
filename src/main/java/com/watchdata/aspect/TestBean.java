@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author zhibin.wang
- * @create 2019-06-05 16:04
+ * @create 2019-06-05
  * @desc
  **/
 public class TestBean {

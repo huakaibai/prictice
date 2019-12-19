@@ -2,7 +2,7 @@ package com.watchdata.effectivejava.sex;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-15 10:52
+ * @create 2019-07-15
  * @desc 看一下tostring的用法
  **/
 public enum Operation {

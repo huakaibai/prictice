@@ -2,7 +2,7 @@ package com.watchdata.jvm;
 
 /**
  * @author zhibin.wang
- * @create 2019-10-30 17:34
+ * @create 2019-10-30
  * @desc 测试java内存回收，-verbose:gc -Xms                                  20M -Xmx20M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  **/
 

@@ -5,7 +5,7 @@ import org.aspectj.lang.annotation.*;
 
 /**
  * @author zhibin.wang
- * @create 2019-06-05 16:05
+ * @create 2019-06-05
  * @desc
  **/
 @Aspect

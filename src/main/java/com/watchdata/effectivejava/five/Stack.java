@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-11 9:19
+ * @create 2019-07-11
  * @desc 泛型栈
  * 所有的comparable 和comparator 都是消费者
  *

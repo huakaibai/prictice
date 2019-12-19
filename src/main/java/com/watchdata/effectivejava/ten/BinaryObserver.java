@@ -2,7 +2,7 @@ package com.watchdata.effectivejava.ten;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-17 16:33
+ * @create 2019-07-17
  * @desc
  **/
 public class BinaryObserver extends  AbstractObserver {

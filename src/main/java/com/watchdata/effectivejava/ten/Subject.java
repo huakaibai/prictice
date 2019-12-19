@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-17 16:25
  * @desc 观察者模式
  **/
 public class Subject {

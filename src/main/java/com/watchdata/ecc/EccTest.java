@@ -7,7 +7,7 @@ import java.security.spec.ECGenParameterSpec;
 
 /**
  * @author zhibin.wang
- * @create 2019-11-15 9:34
+ * @create 2019-11-15
  * @desc 椭圆曲线算法
  **/
 public class EccTest {

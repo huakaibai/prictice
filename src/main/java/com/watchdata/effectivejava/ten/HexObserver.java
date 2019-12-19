@@ -2,7 +2,7 @@ package com.watchdata.effectivejava.ten;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-17 16:31
+ * @create 2019-07-17
  * @desc
  **/
 public class HexObserver extends  AbstractObserver {

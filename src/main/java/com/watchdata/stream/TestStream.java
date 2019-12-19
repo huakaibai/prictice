@@ -5,7 +5,6 @@ import java.util.stream.Collectors;
 
 /**
  * @author zhibin.wang
- * @create 2019-09-03 14:23
  * @desc
  **/
 public class TestStream {
