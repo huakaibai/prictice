@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-10 11:05
+ * @create 2019-07-10
  * @desc 装饰器模式 这个时装饰类,用于在修饰某个类的所有子类的某些方法
  **/
 public class ForwardingSet<E> implements Set<E> {
