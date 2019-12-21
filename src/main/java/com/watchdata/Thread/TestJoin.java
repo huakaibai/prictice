@@ -31,11 +31,11 @@ public class TestJoin implements  Runnable {
     public static void main(String[] args) throws InterruptedException {
         Thread thread1 = new Thread(new TestJoin(" one"));
         thread1.start();
-        thread1.join();
+       thread1.join();
         Thread thread2 = new Thread(new TestJoin(" two"));
         thread2.start();
 
-            thread2.join();
+          //  thread2.join();
 
         Thread thread3 = new Thread(new TestJoin(" three"));
         thread3.start();

@@ -2,100 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fed0e55-e42c-4b9f-b76b-3471c0e47a74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.a2s.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.domIn.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.domOut.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.i2sv2.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.idx.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.inbound.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.o2c.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.o2hprof.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.o2ret.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.outbound.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804.threads" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid17804_Leak_Suspects.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/jvm/HeapOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/jvm/TestAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/services/com.watchdata.spi.Robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-propertyEdtior.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/Thread/EncryptUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/Thread/TestCyclicBarrier$CyclicBarrierTherad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/Thread/TestCyclicBarrier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/Thread/TestJoin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/aspect/AspectjTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/aspect/TestBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/Five.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/eight/DoubleAndBigDecimal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/eight/Lazy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/five/Favorites.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/five/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/five/Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/five/TypeLimit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/four/Conparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/four/ForwardingSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/four/Host$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/four/Host$StrLenCmp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/four/Host.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/four/InstrumentedSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/sex/Operation$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/sex/Operation$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/sex/Operation$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/sex/Operation$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/sex/Operation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/AbstractObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/BinaryObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/CountDownTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/CountDownTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/HexObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/ObservableSet$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/ObservableSet$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/ObservableSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/Observer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/SetObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/StopThread$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/StopThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/ten/Subject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/three/PhoneNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/two/NutritionFaces$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/two/NutritionFaces.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/two/Provider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/two/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/effectivejava/two/Services.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/enumt/Test$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/enumt/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/enumt/TestEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/enumt/TestEnumValue$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/enumt/TestEnumValue$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/enumt/TestEnumValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/iterator/TestIterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/jvm/HeapOOM$OOMObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/jvm/HeapOOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/lamdba/TestLambda$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/lamdba/TestLambda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/DatePropertyEditor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/DatePropertyEdtiorRegistrar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/ObscenityRemovingBeanFactoryPostProcessor$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/ObscenityRemovingBeanFactoryPostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/SirnplePostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/String2Date.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/property/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/proxy/HelloImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/proxy/HelloInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/proxy/HeloProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/seven/Ovveride.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/spi/Bumblebee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/spi/JavaSpiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/spi/OptimusPrime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/spi/Robot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/stream/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/stream/TestStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/watchdata/testswitch/TestSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prictice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/ThreadTrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/dm/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestJoin.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,107 +47,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="spring" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/NutritionFaces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Services.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="35" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/jvm/HeapOOM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/jvm/TestAllocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Type.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/TypeLimit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/spi/Bumblebee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HelloInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -273,158 +88,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/property/String2Date.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/enumt/TestEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/enumt/TestEnumValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/enumt/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/testswitch/TestSwitch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/iterator/TestIterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/InstrumentedSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/three/PhoneNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/Conparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/Host.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/TypeLimit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Stack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Favorites.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/NutritionFaces.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/sex/Operation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Provider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/seven/Ovveride.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/eight/DoubleAndBigDecimal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/StopThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/SetObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/Observer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/HexObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/BinaryObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/AbstractObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/ObservableSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/eight/Lazy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/CountDownTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/ForwardingSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/Five.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestCyclicBarrier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestJoin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/EncryptUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/lamdba/TestLambda.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/stream/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/stream/TestStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HelloInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HelloImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HeloProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/spi/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/spi/OptimusPrime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/spi/Bumblebee.java" />
-        <option value="$PROJECT_DIR$/META-INF/services/com.watchdata.spi.Robot" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/spi/JavaSpiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/com.watchdata.spi.Robot" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Services.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/jvm/HeapOOM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/watchdata/jvm/TestAllocation.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="342" />
-    <option name="y" value="248" />
-    <option name="width" value="1600" />
-    <option name="height" value="738" />
-  </component>
+  <component name="ProjectId" id="1Uq0k67KUpf5THevHN1NbklW22W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring" type="58d84e3e:PackageViewProjectNode" />
-              <item name="spring" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watchdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watchdata" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -433,10 +107,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/watchdata/Thread" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
@@ -465,34 +145,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestAllocation">
+  <component name="RunManager" selected="Application.EnumSingleton">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.jvm.HeapOOM" />
-      <module name="prictice" />
-      <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.watchdata.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeloProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.proxy.HeloProxy" />
+    <configuration name="EnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.dm.EnumSingleton" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.proxy.*" />
+          <option name="PATTERN" value="com.watchdata.dm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,13 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSpiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.spi.JavaSpiTest" />
+    <configuration name="Ovveride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.seven.Ovveride" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.spi.*" />
+          <option name="PATTERN" value="com.watchdata.seven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -514,13 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.jvm.TestAllocation" />
+    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.TestJoin" />
       <module name="prictice" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -XX:+PrintGCDetails -XX:SurvivorRatio=8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.jvm.*" />
+          <option name="PATTERN" value="com.watchdata.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -528,14 +194,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="D:\Program Files\Java\jdk1.8.0_131\jre" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.stream.TestStream" />
+    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.TestSynchronized" />
       <module name="prictice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.stream.*" />
+          <option name="PATTERN" value="com.watchdata.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.ThreadTrain" />
+      <module name="prictice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.watchdata.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -575,19 +254,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestStream" />
-      <item itemvalue="Application.HeloProxy" />
-      <item itemvalue="Application.JavaSpiTest" />
-      <item itemvalue="Application.HeapOOM" />
-      <item itemvalue="Application.TestAllocation" />
+      <item itemvalue="Application.Ovveride" />
+      <item itemvalue="Application.TestJoin" />
+      <item itemvalue="Application.ThreadTrain" />
+      <item itemvalue="Application.TestSynchronized" />
+      <item itemvalue="Application.EnumSingleton" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestAllocation" />
-        <item itemvalue="Application.HeapOOM" />
-        <item itemvalue="Application.JavaSpiTest" />
-        <item itemvalue="Application.HeloProxy" />
-        <item itemvalue="Application.TestStream" />
+        <item itemvalue="Application.EnumSingleton" />
+        <item itemvalue="Application.TestSynchronized" />
+        <item itemvalue="Application.ThreadTrain" />
+        <item itemvalue="Application.TestJoin" />
+        <item itemvalue="Application.Ovveride" />
       </list>
     </recent_temporary>
   </component>
@@ -658,6 +337,10 @@
       <workItem from="1571391259151" duration="910000" />
       <workItem from="1571993956536" duration="67000" />
       <workItem from="1572427957070" duration="2748000" />
+      <workItem from="1576068963964" duration="2558000" />
+      <workItem from="1576146865772" duration="3034000" />
+      <workItem from="1576240736645" duration="3779000" />
+      <workItem from="1576942752132" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="java spi">
       <created>1568967724748</created>
@@ -669,9 +352,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311110000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -681,77 +361,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5400372" visible="true" weight="0.20362474" />
-      <window_info id="Structure" order="1" sideWeight="0.45996276" side_tool="true" weight="0.28198293" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.16393442" side_tool="true" weight="0.21321961" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.28854626" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.52665246" visible="true" weight="0.5088106" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.33773378" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32893288" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47334754" side_tool="true" weight="0.30473047" />
-      <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49946696" weight="0.46314633" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.48667377" weight="0.41960353" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.03731343" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5400372" visible="true" weight="0.21801706" />
-      <window_info id="Structure" order="1" sideWeight="0.45996276" side_tool="true" weight="0.28198293" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.16393442" side_tool="true" weight="0.21321961" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" visible="true" weight="0.0330033" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.52665246" visible="true" weight="0.449945" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.33773378" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32893288" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47334754" side_tool="true" weight="0.30473047" />
-      <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49946696" weight="0.46314633" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.48667377" weight="0.420242" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.03731343" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java spi" />
@@ -763,49 +387,41 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/property/ObscenityRemovingBeanFactoryPostProcessor.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/property/ObscenityRemovingBeanFactoryPostProcessor.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java</url>
           <line>540</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java</url>
           <line>850</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java</url>
           <line>899</line>
-          <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java</url>
           <line>845</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java</url>
           <line>846</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Stack.java</url>
-          <line>33</line>
-          <properties />
+          <line>32</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
@@ -819,488 +435,5 @@
     <SUITE FILE_PATH="coverage/spring$User.ic" NAME="User Coverage Results" MODIFIED="1559706446517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.watchdata.property.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/com.watchdata.spi.Robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ServiceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7128">
-          <caret line="332" column="16" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/aspect/AspectjTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/Five.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/three/PhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/eight/Lazy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/Conparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/ForwardingSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/Host.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/four/InstrumentedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/sex/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/HexObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/ObservableSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1560">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/SetObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/seven/Ovveride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/stream/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/stream/TestStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-propertyEdtior.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/AbstractObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/BinaryObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/CountDownTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/StopThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/Thread/EncryptUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestCyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/lamdba/TestLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/property/DatePropertyEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/property/DatePropertyEdtiorRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/property/ObscenityRemovingBeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/property/SirnplePostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/property/String2Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/property/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HelloImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HeloProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="39" column="20" selection-start-line="38" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/spi/JavaSpiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/spi/OptimusPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/eight/DoubleAndBigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Favorites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/testswitch/TestSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/ten/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/NutritionFaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/two/Services.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/TypeLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/spi/Bumblebee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/proxy/HelloInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/jvm/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/watchdata/jvm/TestAllocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4249605" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
