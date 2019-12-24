@@ -2,7 +2,7 @@ package com.watchdata.effectivejava.two;
 
 /**
  * @author zhibin.wang
- * @create 2019-07-09 10:34
+ * @create 2019-07-09
  * @desc
  **/
 public class NutritionFaces {

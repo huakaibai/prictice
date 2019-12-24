@@ -1,6 +1,5 @@
 package com.watchdata.enumt;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.*;
 
@@ -52,8 +51,8 @@ public class Test {
         // 在枚举中的顺序值
         System.out.println("ordinal：" + test.ordinal());
 
-
-        System.out.println("FRI="+TestEnumValue.FRI.getValue() +" ordinal == "+TestEnumValue.FRI.ordinal());// 单独设定value
+// 单独设定value
+        System.out.println("FRI="+TestEnumValue.FRI.getValue() +" ordinal == "+TestEnumValue.FRI.ordinal());
 
 
         // EnumSet EnumMap
