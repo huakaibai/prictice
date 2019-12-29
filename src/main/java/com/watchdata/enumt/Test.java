@@ -1,7 +1,5 @@
 package com.watchdata.enumt;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 import java.util.*;
 
 /**
@@ -68,6 +66,11 @@ public class Test {
         System.out.println("------------------map--------------------------");
 
         Map<TestEnumValue,String> map = new HashMap<TestEnumValue, String>();
+        Set<Map.Entry<TestEnumValue, String>> entries = map.entrySet();
+        for (Map.Entry<TestEnumValue, String> entry : entries) {
+            entry.getKey();
+
+        }
 
         map.put(TestEnumValue.FRI,"星期一");
         Iterator<Map.Entry<TestEnumValue, String>> iterator1 = map.entrySet().iterator();
