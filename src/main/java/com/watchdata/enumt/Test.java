@@ -1,6 +1,5 @@
 package com.watchdata.enumt;
 
-
 import java.util.*;
 
 /**
@@ -51,8 +50,8 @@ public class Test {
         // 在枚举中的顺序值
         System.out.println("ordinal：" + test.ordinal());
 
-// 单独设定value
-        System.out.println("FRI="+TestEnumValue.FRI.getValue() +" ordinal == "+TestEnumValue.FRI.ordinal());
+
+        System.out.println("FRI="+TestEnumValue.FRI.getValue() +" ordinal == "+TestEnumValue.FRI.ordinal());// 单独设定value
 
 
         // EnumSet EnumMap
@@ -67,6 +66,11 @@ public class Test {
         System.out.println("------------------map--------------------------");
 
         Map<TestEnumValue,String> map = new HashMap<TestEnumValue, String>();
+        Set<Map.Entry<TestEnumValue, String>> entries = map.entrySet();
+        for (Map.Entry<TestEnumValue, String> entry : entries) {
+            entry.getKey();
+
+        }
 
         map.put(TestEnumValue.FRI,"星期一");
         Iterator<Map.Entry<TestEnumValue, String>> iterator1 = map.entrySet().iterator();
