@@ -1,12 +1,12 @@
+/*
 package com.watchdata.effectivejava.ten;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author zhibin.wang
- * @desc 观察者模式
- **/
+*/
+/*
+
 public class Subject {
 
 
@@ -48,3 +48,4 @@ public class Subject {
         subject.setState(10);
     }
 }
+*/

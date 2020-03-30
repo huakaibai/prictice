@@ -1,10 +1,9 @@
+/*
 package com.watchdata.effectivejava.ten;
 
-/**
- * @author zhibin.wang
- * @create 2019-07-17
- * @desc
- **/
+*/
+/*
+
 public class HexObserver extends  AbstractObserver {
 
 
@@ -20,3 +19,4 @@ public class HexObserver extends  AbstractObserver {
                 + Integer.toHexString( subject.getState() ).toUpperCase() );
     }
 }
+*/

@@ -1,10 +1,9 @@
+/*
 package com.watchdata.effectivejava.ten;
 
-/**
- * @author zhibin.wang
- * @create 2019-07-17
- * @desc
- **/
+*/
+/*
+
 public class BinaryObserver extends  AbstractObserver {
 
     public BinaryObserver(Subject subject) {
@@ -17,3 +16,4 @@ public class BinaryObserver extends  AbstractObserver {
                 + Integer.toBinaryString( subject.getState() ) );
     }
 }
+*/
