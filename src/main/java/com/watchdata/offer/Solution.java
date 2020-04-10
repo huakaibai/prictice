@@ -79,6 +79,7 @@ public class Solution {
      * 题目描述： 将一个字符串中的空格替换成“%20”。 例如： 当字符串为 We Are
      * Happy.则经过替换之后的字符串为 We%20Are%20Happy。
      * 思路： 从后往前复制， 数组长度会增加， 或使用 StringBuilder、 StringBuffer 类
+     *
      * @param s
      * @return
      */
@@ -107,33 +108,37 @@ public class Solution {
     /**
      * 输入一个链表， 从尾到头打印链表每个节点的值。
      * 思路： 借助栈实现， 或使用递归的方法。
+     *
      * @param head
      * @return
      */
     public static int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
         ListNode temp = head;
-        while (temp != null){
+        while (temp != null) {
             stack.push(temp);
             temp = temp.next;
         }
         int j = stack.size();
 
         int a[] = new int[stack.size()];
-       for (int i = 0; i < j;i++ ){
-           a[i] = stack.pop().val;
-       }
+        for (int i = 0; i < j; i++) {
+            a[i] = stack.pop().val;
+        }
 
-       return a;
+        return a;
 
     }
 
     static class TreeNode {
-      int val;
-      TreeNode left;
-     TreeNode right;
-     TreeNode(int x) { val = x; }
- }
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
 
     /**
      * 题目描述： 输入某二叉树的前序遍历和中序遍历的结果， 请重建出该二叉树。 假
@@ -141,38 +146,40 @@ public class Solution {
      * {1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}， 则重建二叉树并返回。
      * 思路： 先找出根节点， 然后利用递归方法构造二叉树
      * 代码实现： 时间复杂度： O(n)， 空间复杂度： O(n)
+     *
      * @param preorder
      * @param inorder
      * @return
      */
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
 
-        return relativeTreeNode(preorder, 0, preorder.length-1, inorder, 0, inorder.length-1);
+        return relativeTreeNode(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
 
     }
 
-    private static TreeNode relativeTreeNode(int[] pre,int preStart,int preEnd,int[] end,int endStart,int endEnd){
-        if (preStart > preEnd || endStart > endEnd){
+    private static TreeNode relativeTreeNode(int[] pre, int preStart, int preEnd, int[] end, int endStart, int endEnd) {
+        if (preStart > preEnd || endStart > endEnd) {
             return null;
         }
 
         TreeNode root = new TreeNode(pre[preStart]);
         int index = endStart;
-        while (index <= endEnd && end[index] != root.val){
+        while (index <= endEnd && end[index] != root.val) {
             index++;
         }
         int length = index - endStart;
 
-        root.left = relativeTreeNode(pre, preStart+1, preStart+length, end, endStart, index-1);
-        root.right = relativeTreeNode(pre, preStart+length+1, preEnd, end, index+1, endEnd);
+        root.left = relativeTreeNode(pre, preStart + 1, preStart + length, end, endStart, index - 1);
+        root.right = relativeTreeNode(pre, preStart + length + 1, preEnd, end, index + 1, endEnd);
         return root;
     }
 
 
-   static class CQueue {
+    static class CQueue {
 
-       Stack head;
-       Stack tail;
+        Stack head;
+        Stack tail;
+
         public CQueue() {
             head = new Stack();
             tail = new Stack();
@@ -184,10 +191,10 @@ public class Solution {
         }
 
         public int deleteHead() {
-            if (head.isEmpty() && tail.isEmpty()){
+            if (head.isEmpty() && tail.isEmpty()) {
                 return -1;
             }
-            while (!head.isEmpty()){
+            while (!head.isEmpty()) {
                 tail.push(head.pop());
             }
             return (int) tail.pop();
@@ -196,24 +203,194 @@ public class Solution {
         }
     }
 
+    /**
+     * 把一个数组最开始的若干个元素搬到数组的末尾， 我们称之为数组的
+     * 旋转。 输入一个非递减排序的数组的一个旋转， 输出旋转数组的最小元素。 例如
+     * 数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转， 该数组的最小值为 1。 NOTE： 给出的所
+     * 有元素都大于 0， 若数组大小为 0， 请返回-1。 假设数组中不存在重复元素。
+     *
+     * @param numbers
+     * @return
+     */
     public static int minArray(int[] numbers) {
 
-        for (int i= 0;i+1<numbers.length;i++){
-            if (numbers[i] > numbers[i+1]){
-                return numbers[i+1];
+        for (int i = 0; i + 1 < numbers.length; i++) {
+            if (numbers[i] > numbers[i + 1]) {
+                return numbers[i + 1];
             }
         }
         return numbers[0];
     }
 
+    /**
+     * 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：
+     * <p>
+     * F(0) = 0,   F(1) = 1
+     * F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
+     * <p>
+     * 来源：力扣（LeetCode）
+     * 链接：https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof
+     * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     *
+     * @param n
+     * @return
+     */
 
-
-    public static int fib(int n) {
-        if( n == 0 || n== 1){
+    public int fib(int n) {
+        int result = 0;
+        int preOne = 1;
+        int preTwo = 0;
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
             return 1;
         }
+        for (int i = 2; i <= n; i++) {
+            result = preOne + preTwo;
+            preTwo = preOne;
+            preOne = result;
+        }
+        return result;
 
-        return fib(n-1) + fib(n-2);
+    }
+
+    /**
+     * 输入数字 n，按顺序打印出从 1 到最大的 n 位十进制数。比如输入 3，则打印出 1、2、3 一直到最大的 3 位数 999。
+     * <p>
+     * 示例 1:
+     * <p>
+     * 输入: n = 1
+     * 输出: [1,2,3,4,5,6,7,8,9]
+     * <p>
+     * 来源：力扣（LeetCode）
+     * 链接：https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof
+     * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     *
+     * @param n
+     * @return
+     */
+    public int[] printNumbers(int n) {
+        int[] aa = new int[(int) Math.pow(10, n) - 1];
+        for (int i = 1; i <= ((int) Math.pow(10, n) - 1); i++) {
+            aa[i - 1] = i;
+        }
+        return aa;
+    }
+
+    /**
+     * 给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。
+     * <p>
+     * 返回删除后的链表的头节点。
+     *
+     * @param head
+     * @param val
+     * @return
+     */
+    public ListNode deleteNode(ListNode head, int val) {
+        ListNode temp = head;
+        ListNode up = null;
+        while (temp != null) {
+            if (temp.val == val) {
+                break;
+            }
+            up = temp;
+            temp = temp.next;
+
+        }
+        if (up == null) {
+            head = head.next;
+            return head;
+        }
+        if (temp.next != null) {
+            up.next = temp.next;
+        }
+
+        return head;
+
+
+    }
+
+    /**
+     * 冒泡排序是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果它们的顺序错误就把它们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
+     * <p>
+     * 1.1 算法描述
+     * 比较相邻的元素。如果第一个比第二个大，就交换它们两个；
+     * 对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对，这样在最后的元素应该会是最大的数；
+     * 针对所有的元素重复以上的步骤，除了最后一个；
+     * 重复步骤1~3，直到排序完成。
+     *
+     * @param arr
+     * @return
+     */
+    public int[] bubbleSort(int[] arr) {
+        int temp;
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 1; j < arr.length - 1 - i; j++) {
+                if (arr[i] > arr[j]) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    /**
+     * 选择排序(Selection-sort)是一种简单直观的排序算法。它的工作原理：首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。
+     * <p>
+     * 2.1 算法描述
+     * n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结果。具体算法描述如下：
+     * <p>
+     * 初始状态：无序区为R[1..n]，有序区为空；
+     * 第i趟排序(i=1,2,3…n-1)开始时，当前有序区和无序区分别为R[1..i-1]和R(i..n）。该趟排序从当前无序区中-选出关键字最小的记录 R[k]，将它与无序区的第1个记录R交换，使R[1..i]和R[i+1..n)分别变为记录个数增加1个的新有序区和记录个数减少1个的新无序区；
+     * n-1趟结束，数组有序化了。
+     *
+     * @param arr
+     * @return
+     */
+    public int[] selectionSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int max = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[max] < arr[j])
+                    max = j;
+            }
+            int temp = arr[i];
+            arr[i] = arr[max];
+            arr[max] = temp;
+        }
+        return arr;
+
+    }
+
+    /**
+     * 一般来说，插入排序都采用in-place在数组上实现。具体算法描述如下：
+     *
+     * 从第一个元素开始，该元素可以认为已经被排序；
+     * 取出下一个元素，在已经排序的元素序列中从后向前扫描；
+     * 如果该元素（已排序）大于新元素，将该元素移到下一位置；
+     * 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置；
+     * 将新元素插入到该位置后；
+     * 重复步骤2~5。
+     * @param arr
+     * @return
+     */
+    public static int[] insertionSort(int[] arr) {
+
+        for (int i =1; i < arr.length;i++){
+            int temp = arr[i];
+            for (int j = i-1;j >=0;j--){
+                if (arr[j] > temp){
+                    arr[j+1] = arr[j];
+                }else {
+                    arr[j] = temp;
+                    break;
+                }
+            }
+        }
+        return arr;
 
     }
 
@@ -222,10 +399,13 @@ public class Solution {
         System.out.println(find2(arr, 5));*/
 
 
-        int[] pre = {3,9,20,15,7};
-        int[]end = {9,3,15,20,7};
+        int a[] = {1, 3, 5, 7, 8};
+        int[] ints = insertionSort(a);
+        for (int anInt : ints) {
+            System.out.println(anInt);
+        }
 
-    buildTree(pre, end);
+        //buildTree(pre, end);
 
 
     }
