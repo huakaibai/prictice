@@ -1,5 +1,6 @@
 package com.watchdata.offer;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -326,10 +327,10 @@ public class Solution {
     public int[] bubbleSort(int[] arr) {
         int temp;
         for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 1; j < arr.length - 1 - i; j++) {
-                if (arr[i] > arr[j]) {
-                    temp = arr[i];
-                    arr[i] = arr[j];
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    temp = arr[j + 1];
+                    arr[j + 1] = arr[j];
                     arr[j] = temp;
                 }
             }
@@ -367,31 +368,141 @@ public class Solution {
 
     /**
      * 一般来说，插入排序都采用in-place在数组上实现。具体算法描述如下：
-     *
+     * <p>
      * 从第一个元素开始，该元素可以认为已经被排序；
      * 取出下一个元素，在已经排序的元素序列中从后向前扫描；
      * 如果该元素（已排序）大于新元素，将该元素移到下一位置；
      * 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置；
      * 将新元素插入到该位置后；
      * 重复步骤2~5。
+     *
      * @param arr
      * @return
      */
     public static int[] insertionSort(int[] arr) {
 
-        for (int i =1; i < arr.length;i++){
+        for (int i = 1; i < arr.length; i++) {
+            int j = i - 1;
             int temp = arr[i];
-            for (int j = i-1;j >=0;j--){
-                if (arr[j] > temp){
-                    arr[j+1] = arr[j];
-                }else {
-                    arr[j] = temp;
+            for (; j >= 0; j--) {
+                if (arr[j] > temp) {
+                    arr[j + 1] = arr[j];
+
+                } else {
+
                     break;
                 }
             }
+            arr[j + 1] = temp;
+
         }
         return arr;
 
+    }
+
+    /**
+     * 快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
+     * <p>
+     * 6.1 算法描述
+     * 快速排序使用分治法来把一个串（list）分为两个子串（sub-lists）。具体算法描述如下：
+     * <p>
+     * 从数列中挑出一个元素，称为 “基准”（pivot）；
+     * 重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；
+     * 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
+     * 6.2 动图演示
+     *
+     * @param arr
+     * @param startIndex
+     * @param endIndex
+     */
+    public static int[] quickSort(int[] arr, int startIndex, int endIndex) {
+
+        if (startIndex >= endIndex) {
+            return arr;
+        }
+        // 获取基准的位置
+        int pivotIndex = getPivotIndex(arr, startIndex, endIndex);
+        quickSort(arr, startIndex,pivotIndex-1);
+        quickSort(arr, pivotIndex+1, endIndex);
+        return arr;
+
+    }
+
+    public static int getPivotIndex(int[] arr, int startIndex, int endIndex) {
+        int left = startIndex;
+        int right = endIndex;
+        int pivot = arr[startIndex];
+        int index = startIndex;
+        while (right  >= left) {
+            while (right >= left) {
+                if (arr[right] < pivot) {
+                    arr[index] = arr[right];
+                    arr[right] = pivot;
+                    index = right;
+                    left++;
+                    break;
+                }
+                right--;
+            }
+            while (right >= left){
+                if (arr[left] > pivot){
+                    arr[index] = arr[left];
+                    arr[left] = pivot;
+                    index = left;
+                    right--;
+                    break;
+
+                }
+                left++;
+            }
+
+
+        }
+        arr[index] = pivot;
+        return index;
+
+    }
+
+    private void swap(int[] arr, int left, int right) {
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = arr[left];
+    }
+
+
+    private static int partition(int[] arr, int startIndex, int endIndex) {
+        // 取第一个位置的元素作为基准元素
+        int pivot = arr[startIndex];
+        int left = startIndex;
+        int right = endIndex;
+        // 坑的位置，初始等于pivot的位置
+        int index = startIndex;
+
+        //大循环在左右指针重合或者交错时结束
+        while (right >= left) {
+            //right指针从右向左进行比较
+            while (right >= left) {
+                if (arr[right] < pivot) {
+                    arr[left] = arr[right];
+                    index = right;
+                    left++;
+                    break;
+                }
+                right--;
+            }
+            //left指针从左向右进行比较
+            while (right >= left) {
+                if (arr[left] > pivot) {
+                    arr[right] = arr[left];
+                    index = left;
+                    right--;
+                    break;
+                }
+                left++;
+            }
+        }
+        arr[index] = pivot;
+        return index;
     }
 
     public static void main(String[] args) {
@@ -399,12 +510,16 @@ public class Solution {
         System.out.println(find2(arr, 5));*/
 
 
-        int a[] = {1, 3, 5, 7, 8};
+      /*  int a[] = {2, 3, 1, 6, 8};
         int[] ints = insertionSort(a);
         for (int anInt : ints) {
             System.out.println(anInt);
-        }
+        }*/
 
+
+        int[] arr = new int[] {2, 3, 1, 6, 8};
+        int[] ints = quickSort(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(ints));
         //buildTree(pre, end);
 
 
