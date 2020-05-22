@@ -1,6 +1,5 @@
 package com.watchdata.offer;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -505,6 +504,24 @@ public class Solution {
         return index;
     }
 
+    /**
+     * 输入数字 n， 按顺序打印从 1 到最大的 n 位数十进制数， 比如： 输入
+     * 3， 打印出 1 到 999
+     *
+     */
+    public static  void printNnumer(int n){
+        StringBuilder  stringBuilder = new StringBuilder();
+        stringBuilder.append("1");
+        for (int i =0; i < n; i++){
+            stringBuilder.append(0);
+        }
+        String s = stringBuilder.toString();
+        for (int j =1; j < Integer.valueOf(s);j++ ){
+            System.out.println(j);
+        }
+    }
+
+
     public static void main(String[] args) {
 /*        int arr[][] = {{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}};
         System.out.println(find2(arr, 5));*/
@@ -517,10 +534,12 @@ public class Solution {
         }*/
 
 
-        int[] arr = new int[] {2, 3, 1, 6, 8};
+       /*nt[] arr = new int[] {2, 3, 1, 6, 8};
         int[] ints = quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(ints));
-        //buildTree(pre, end);
+        //buildTree(pre, end);*/
+
+                printNnumer(3);
 
 
     }
