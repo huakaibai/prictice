@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fed0e55-e42c-4b9f-b76b-3471c0e47a74" name="Default Changelist" comment="">
+    <list default="true" id="5fed0e55-e42c-4b9f-b76b-3471c0e47a74" name="Default Changelist" comment="java spi">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prictice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/ThreadTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/dm/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/ABA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/map/TestHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestJoin.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,34 +52,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>setasText</find>
-      <find>cust</find>
-      <find>peo</find>
-      <find>propertyEditorRegistrars</find>
-      <find>values</find>
-      <find>iterator</find>
-      <find>modCount</find>
-      <find>expectedModCount</find>
-      <find>hasne</find>
-      <find>has</find>
-      <find>SubList</find>
-      <find>remove</find>
-      <find>size</find>
-      <find>addand</find>
-      <find>key</find>
-      <find>class</find>
-      <find>CASE_INSENSITIVE_ORDER</find>
-      <find>}</find>
-      <find>b</find>
-      <find>st</find>
-      <find>map</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -116,7 +83,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
@@ -145,9 +112,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumSingleton">
+  <component name="RunManager" selected="Application.ABA">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.ABA" />
+      <module name="prictice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.watchdata.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,13 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ovveride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.seven.Ovveride" />
+    <configuration name="HeloProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.proxy.HeloProxy" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.seven.*" />
+          <option name="PATTERN" value="com.watchdata.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.TestJoin" />
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.map.TestHashMap" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.Thread.*" />
+          <option name="PATTERN" value="com.watchdata.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,20 +177,6 @@
     </configuration>
     <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.TestSynchronized" />
-      <module name="prictice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.watchdata.Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.ThreadTrain" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -254,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ovveride" />
-      <item itemvalue="Application.TestJoin" />
-      <item itemvalue="Application.ThreadTrain" />
       <item itemvalue="Application.TestSynchronized" />
       <item itemvalue="Application.EnumSingleton" />
+      <item itemvalue="Application.HeloProxy" />
+      <item itemvalue="Application.TestHashMap" />
+      <item itemvalue="Application.ABA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ABA" />
+        <item itemvalue="Application.TestHashMap" />
+        <item itemvalue="Application.HeloProxy" />
         <item itemvalue="Application.EnumSingleton" />
         <item itemvalue="Application.TestSynchronized" />
-        <item itemvalue="Application.ThreadTrain" />
-        <item itemvalue="Application.TestJoin" />
-        <item itemvalue="Application.Ovveride" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +307,17 @@
       <workItem from="1576068963964" duration="2558000" />
       <workItem from="1576146865772" duration="3034000" />
       <workItem from="1576240736645" duration="3779000" />
-      <workItem from="1576942752132" duration="1032000" />
+      <workItem from="1576942752132" duration="1425000" />
+      <workItem from="1577022801233" duration="2083000" />
+      <workItem from="1577195324560" duration="1142000" />
+      <workItem from="1577623147085" duration="845000" />
+      <workItem from="1578320816071" duration="1344000" />
+      <workItem from="1578407910325" duration="11000" />
+      <workItem from="1585489214821" duration="33000" />
+      <workItem from="1586531060031" duration="666000" />
+      <workItem from="1586658688355" duration="2045000" />
+      <workItem from="1586876363755" duration="41000" />
+      <workItem from="1590067891062" duration="5477000" />
     </task>
     <task id="LOCAL-00001" summary="java spi">
       <created>1568967724748</created>
@@ -349,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568967724748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java spi">
+      <created>1576943832118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576943832118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java spi">
+      <created>1577623381105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577623381105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
