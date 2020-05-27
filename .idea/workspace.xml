@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fed0e55-e42c-4b9f-b76b-3471c0e47a74" name="Default Changelist" comment="java spi">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/ABA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/map/TestHashMap.java" afterDir="false" />
+    <list default="true" id="5fed0e55-e42c-4b9f-b76b-3471c0e47a74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/Thread/TestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/gcroots/Kafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/TestPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/ForkJoinWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/IP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/Ii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/LogIpAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/IP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/IP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/LogAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/LogAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/TestIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/watchdata/offer/TestIP.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,20 +119,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ABA">
+  <component name="RunManager" selected="Application.TestProducer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.ABA" />
+    <configuration name="GdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.td.GdTest" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.Thread.*" />
+          <option name="PATTERN" value="com.watchdata.td.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.dm.EnumSingleton" />
+    <configuration name="IP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.offer.biglog.IP" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.dm.*" />
+          <option name="PATTERN" value="com.watchdata.offer.biglog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeloProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.proxy.HeloProxy" />
+    <configuration name="LogIpAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.offer.biglog.LogIpAnalysis" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.proxy.*" />
+          <option name="PATTERN" value="com.watchdata.offer.biglog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,13 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.map.TestHashMap" />
+    <configuration name="TestPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.offer.TestPrint" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watchdata.map.*" />
+          <option name="PATTERN" value="com.watchdata.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.TestSynchronized" />
+    <configuration name="TestProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watchdata.Thread.TestProducer" />
       <module name="prictice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -221,19 +228,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestSynchronized" />
-      <item itemvalue="Application.EnumSingleton" />
-      <item itemvalue="Application.HeloProxy" />
-      <item itemvalue="Application.TestHashMap" />
-      <item itemvalue="Application.ABA" />
+      <item itemvalue="Application.IP" />
+      <item itemvalue="Application.LogIpAnalysis" />
+      <item itemvalue="Application.GdTest" />
+      <item itemvalue="Application.TestPrint" />
+      <item itemvalue="Application.TestProducer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ABA" />
-        <item itemvalue="Application.TestHashMap" />
-        <item itemvalue="Application.HeloProxy" />
-        <item itemvalue="Application.EnumSingleton" />
-        <item itemvalue="Application.TestSynchronized" />
+        <item itemvalue="Application.TestProducer" />
+        <item itemvalue="Application.TestPrint" />
+        <item itemvalue="Application.GdTest" />
+        <item itemvalue="Application.LogIpAnalysis" />
+        <item itemvalue="Application.IP" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +325,12 @@
       <workItem from="1586658688355" duration="2045000" />
       <workItem from="1586876363755" duration="41000" />
       <workItem from="1590067891062" duration="5477000" />
+      <workItem from="1590157583482" duration="10775000" />
+      <workItem from="1590228858235" duration="2422000" />
+      <workItem from="1590231424285" duration="1439000" />
+      <workItem from="1590285975741" duration="9885000" />
+      <workItem from="1590325667500" duration="1418000" />
+      <workItem from="1590334305540" duration="1615000" />
     </task>
     <task id="LOCAL-00001" summary="java spi">
       <created>1568967724748</created>
@@ -340,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577623381105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java spi">
+      <created>1590157625770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590157625770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -414,6 +434,32 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/effectivejava/five/Stack.java</url>
           <line>32</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/LogIpAnalysis.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="ip.equals(&quot;250.43.68.230&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/LogIpAnalysis.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/LogIpAnalysis.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/LogIpAnalysis.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/watchdata/offer/biglog/Ii.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

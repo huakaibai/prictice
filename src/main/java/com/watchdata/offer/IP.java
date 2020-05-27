@@ -1,5 +1,11 @@
 package com.watchdata.offer;
 
+import lombok.ToString;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+@ToString
 class IP implements Comparable<IP>{
 	public String ip;
 	public int nums;
@@ -20,5 +26,24 @@ class IP implements Comparable<IP>{
 			}
 		}
 		return 0;
+	}
+
+	public static void main(String[] args) {
+		Set<IP> set = new TreeSet<>();
+    /*    set.add(new IP("192",1));
+        set.add(new IP("192",1));
+        set.add(new IP("192",1));
+        set.add(new IP("192",1));*/
+		set.add(new IP("192",1));
+		set.add(new IP("192",1));
+		set.add(new IP("193",1));
+		set.add(new IP("192",1));
+		set.add(new IP("192",1));
+		set.add(new IP("194",1));
+		set.add(new IP("193",1));
+
+		for (IP ip : set) {
+			System.out.println(ip);
+		}
 	}
 }

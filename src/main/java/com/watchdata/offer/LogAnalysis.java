@@ -86,7 +86,7 @@ public class LogAnalysis {
 		int i=0;
 		for (IP o : temp1) {
 			set.add(o);
-			if (i>100) {
+			if (i>=100) {
 				break;
 			}
 			i++;
@@ -95,7 +95,7 @@ public class LogAnalysis {
 		Set<IP> temp2 = new TreeSet<IP>();
 		for (IP o : set) {
 			temp2.add(o);
-			if (i>100) {
+			if (i>=100) {
 				break;
 			}
 			i++;
