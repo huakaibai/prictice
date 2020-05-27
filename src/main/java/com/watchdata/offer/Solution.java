@@ -421,8 +421,8 @@ public class Solution {
         }
         // 获取基准的位置
         int pivotIndex = getPivotIndex(arr, startIndex, endIndex);
-        quickSort(arr, startIndex,pivotIndex-1);
-        quickSort(arr, pivotIndex+1, endIndex);
+        quickSort(arr, startIndex, pivotIndex - 1);
+        quickSort(arr, pivotIndex + 1, endIndex);
         return arr;
 
     }
@@ -432,7 +432,7 @@ public class Solution {
         int right = endIndex;
         int pivot = arr[startIndex];
         int index = startIndex;
-        while (right  >= left) {
+        while (right >= left) {
             while (right >= left) {
                 if (arr[right] < pivot) {
                     arr[index] = arr[right];
@@ -443,8 +443,8 @@ public class Solution {
                 }
                 right--;
             }
-            while (right >= left){
-                if (arr[left] > pivot){
+            while (right >= left) {
+                if (arr[left] > pivot) {
                     arr[index] = arr[left];
                     arr[left] = pivot;
                     index = left;
@@ -507,21 +507,149 @@ public class Solution {
     /**
      * 输入数字 n， 按顺序打印从 1 到最大的 n 位数十进制数， 比如： 输入
      * 3， 打印出 1 到 999
-     *
      */
-    public static  void printNnumer(int n){
-        StringBuilder  stringBuilder = new StringBuilder();
+    public static void printNnumer(int n) {
+        StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("1");
-        for (int i =0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             stringBuilder.append(0);
         }
         String s = stringBuilder.toString();
-        for (int j =1; j < Integer.valueOf(s);j++ ){
+        for (int j = 1; j < Integer.valueOf(s); j++) {
             System.out.println(j);
         }
     }
 
 
+    public static void printToMaxOfNDigits(int n) {
+        int[] array = new int[n];
+        if (n <= 0)
+            return;
+        printArray(array, 0);
+    }
+
+    private static void printArray(int[] array, int n) {
+        for (int i = 0; i < 10; i++) {
+            if (n != array.length) {
+                array[n] = i;
+                printArray(array, n + 1);
+            } else {
+                boolean isFirstNo0 = false;
+
+                for (int j = 0; j < array.length; j++) {
+                    if (array[j] != 0) {
+                        System.out.print(array[j]);
+                        if (!isFirstNo0){
+                            isFirstNo0 = true;
+                        }
+
+                    } else {
+                        if (isFirstNo0)
+                            System.out.print(array[j]);
+                    }
+                }
+                System.out.println();
+                return;
+            }
+        }
+    }
+
+    /**
+     * 求链表中倒数第 K 个节点
+     * @param listNode
+     * @param K
+     */
+    public static ListNode  findKToTail(ListNode listNode,int k){
+
+        ListNode fast = listNode;
+
+        ListNode slow = listNode;
+
+        while ((k--) > 0){
+            if (fast.next == null){
+                return null;
+            }
+            fast = fast.next;
+        }
+        while (fast != null){
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow;
+    }
+
+    /**
+     * 删除链表的倒数第K个节点
+     * @param listNode
+     * @param k
+     * @return
+     */
+    public static ListNode  deleteK(ListNode listNode,int k){
+
+        ListNode fast = listNode;
+
+        ListNode slow = listNode;
+
+        while ((k--) > 0){
+            if (fast.next == null){
+                return listNode;
+            }
+            fast = fast.next;
+        }
+
+        ListNode pre = null;
+        while (fast != null){
+            fast = fast.next;
+            if (fast == null){
+                pre = slow;
+            }
+            slow = slow.next;
+        }
+
+        pre.next = slow.next;
+        slow = null;
+        return listNode;
+
+    }
+
+    public  static  void  printListNode(ListNode listNode){
+        ListNode head = listNode;
+        while (head != null){
+            System.out.println(head.val);
+            head = head.next;
+        }
+    }
+
+    /**
+     * 反转一个列表
+     * @param listNode
+     * @return
+     */
+    public static ListNode reverseListNode(ListNode listNode){
+
+        ListNode head = listNode;
+        ListNode tail = null;
+        while (head != null){
+          ListNode tmp = head.next;
+          head.next = tail;
+          tail = head;
+          head = tmp;
+        }
+        return tail;
+    }
+
+
+
+    public static ListNode reverseList2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode p = reverseList2(head.next);
+        head.next.next = head.next;
+        head.next = null;
+        return p;
+    }
     public static void main(String[] args) {
 /*        int arr[][] = {{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}};
         System.out.println(find2(arr, 5));*/
@@ -539,8 +667,37 @@ public class Solution {
         System.out.println(Arrays.toString(ints));
         //buildTree(pre, end);*/
 
-                printNnumer(3);
+       // printNnumer(3);
+       // long l = System.currentTimeMillis();
 
+       // printToMaxOfNDigits(2);
+        // printNnumer(6);
+       // System.out.println("耗时："+(System.currentTimeMillis() - l));
+
+        ListNode listNode1 = new ListNode(1);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode3 = new ListNode(3);
+        ListNode listNode4 = new ListNode(4);
+        ListNode listNode5 = new ListNode(5);
+        ListNode listNode6 = new ListNode(6);
+
+        listNode1.next = listNode2;
+        listNode2.next = listNode3;
+        listNode3.next = listNode4;
+        listNode4.next = listNode5;
+        listNode5.next = listNode6;
+
+       /* ListNode kToTail = findKToTail(listNode1, 4);
+        System.out.println(kToTail.val);
+        deleteK(listNode1, 4);
+        printListNode(listNode1);*/
+
+
+        /*ListNode reverseListNode = reverseListNode(listNode1);
+        printListNode(reverseListNode);*/
+
+        ListNode listNode = reverseList2(listNode1);
+        printListNode(listNode);
 
     }
 }
