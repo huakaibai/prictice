@@ -1,6 +1,8 @@
 package com.watchdata.offer;
 
+import java.util.Iterator;
 import java.util.Stack;
+import java.util.TreeSet;
 
 /**
  * @author zhibin.wang
@@ -650,6 +652,47 @@ public class Solution {
         head.next = null;
         return p;
     }
+
+    /**
+     *  输入 10个数（可能重复），可组成若干个三位数，输出其中不带重复数字的最大三位数
+     *           例如：输入 0 1 2 3 4 5 6 7 8 9
+     *                     输出 987
+     * @param number
+     * @return
+     */
+    public static  void max3Int(int[] number){
+
+        TreeSet<Integer> set = new TreeSet<>();
+        for(int i = 0; i < number.length;i++){
+            set.add(i);
+        }
+        set = (TreeSet<Integer>) set.descendingSet();
+        Iterator<Integer> iterator = set.iterator();
+        int i = 0;
+        while (iterator.hasNext()){
+            if (i > 2){
+                break;
+            }
+            i++;
+            System.out.print(iterator.next());
+        }
+    }
+
+
+    /**
+     * 输入两个数字，分别进行反转并计算相加的结果。
+     * 如果输入的数字末位数是0，则翻转后去除0，
+     * 例如 输入分别为210和8，210翻转后为12,8翻转后为8，相加为20
+     *
+     */
+    public static  int reverse2num(int a,int b){
+      String aa=  new StringBuilder(String.valueOf(a)).reverse().toString();
+     String bb =   new StringBuilder(String.valueOf(b)).reverse().toString();
+
+        int cc = Integer.valueOf(aa) + Integer.valueOf(bb);
+        return cc;
+    }
+
     public static void main(String[] args) {
 /*        int arr[][] = {{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}};
         System.out.println(find2(arr, 5));*/
@@ -674,7 +717,7 @@ public class Solution {
         // printNnumer(6);
        // System.out.println("耗时："+(System.currentTimeMillis() - l));
 
-        ListNode listNode1 = new ListNode(1);
+  /*      ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
         ListNode listNode3 = new ListNode(3);
         ListNode listNode4 = new ListNode(4);
@@ -687,17 +730,22 @@ public class Solution {
         listNode4.next = listNode5;
         listNode5.next = listNode6;
 
-       /* ListNode kToTail = findKToTail(listNode1, 4);
+       *//* ListNode kToTail = findKToTail(listNode1, 4);
         System.out.println(kToTail.val);
         deleteK(listNode1, 4);
-        printListNode(listNode1);*/
+        printListNode(listNode1);*//*
 
 
-        /*ListNode reverseListNode = reverseListNode(listNode1);
-        printListNode(reverseListNode);*/
+        *//*ListNode reverseListNode = reverseListNode(listNode1);
+        printListNode(reverseListNode);*//*
 
         ListNode listNode = reverseList2(listNode1);
         printListNode(listNode);
+*/
 
+        int numer[] = {2,3,2,9,8,7,7,6,9,2};
+        max3Int(numer);
+
+        System.out.println(reverse2num(210,8));
     }
 }
